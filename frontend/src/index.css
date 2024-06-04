@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Montserrat Variable', sans-serif;
+    overflow-x: hidden;
+  }
+:root{
+  --cursor-color:rgb(255, 255, 255)
+}
+.has-scroll-smooth #container {
+  transform: perspective(1px);
+  }
+  
+
+.slick-slide > div {
+  margin: 0 20px;
+}
+.slick-list {
+  margin: 0 -20px;
+}
